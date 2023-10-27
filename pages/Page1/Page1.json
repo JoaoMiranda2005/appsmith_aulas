@@ -33,12 +33,7 @@
               "name": "Select_users1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "'Table1.pageOffset'",
-                "'Table1.sortOrder.order' !== \"desc\" ? \"\" : \"DESC\"",
-                "'Table1.sortOrder.column' || 'id'",
-                "'Table1.pageSize'"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ],

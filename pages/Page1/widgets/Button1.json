@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 61,
     "widgetName": "Button1",
-    "onClick": "{{insert_user.run().then(() => {\n  users_table.run();\n}).catch(() => {\n  showAlert('Dados não inseridos!', 'error');\n});}}",
+    "onClick": "{{insert_user.run().then(() => {\n  Select_users1.run();\n}).catch(() => {\n  showAlert('Dados não inseridos!', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
