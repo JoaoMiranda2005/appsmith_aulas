@@ -1,0 +1,1 @@
+UPDATE users SET username= '{{'Table1.updatedRow.username'}}', fullname= '{{'users_table.updatedRow.fullname'}}' WHERE id= '{{'Table1.updatedRow.id'}}';

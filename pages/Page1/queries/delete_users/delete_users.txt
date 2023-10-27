@@ -1,0 +1,2 @@
+DELETE FROM `users` WHERE `users`, `id` = {{'users_table.selectedRow.id'}}
+
