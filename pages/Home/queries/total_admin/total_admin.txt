@@ -1,0 +1,1 @@
+SELECT COUNT (*)  AS total_admin FROM users WHERE users.user_role = 4
