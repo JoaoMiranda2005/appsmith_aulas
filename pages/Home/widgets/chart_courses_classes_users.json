@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 97,
-    "widgetName": "Chart2",
+    "mobileBottomRow": 77.4,
+    "widgetName": "chart_courses_classes_users",
     "allowScroll": false,
     "displayName": "Chart",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
@@ -17,31 +17,20 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "chartData": {"36db5i180a": {
-        "data": [
-            {
-                "x": "Product1",
-                "y": 20000
-            },
-            {
-                "x": "Product2",
-                "y": 22000
-            },
-            {
-                "x": "Product3",
-                "y": 32000
-            }
-        ],
+        "data": "{{list_total_users_class.data.map(p => ({x: p.class_name, y: p.total_users}))}}",
         "seriesName": "2023"
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 20.71875,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "accentColor"},
-        {"key": "fontFamily"}
+        {"key": "fontFamily"},
+        {"key": "chartData.36db5i180a.data"}
     ],
     "leftColumn": 0,
     "customFusionChartConfig": {
@@ -107,13 +96,13 @@
     "tags": ["Display"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 65,
+    "mobileTopRow": 45.4,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
-    "chartName": "Sales Report",
+    "yAxisName": "Alunos",
+    "chartName": "Utilizadores por Turma",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "xAxisName": "Product Line",
+    "xAxisName": "Turmas",
     "chartType": "COLUMN_CHART",
     "alignment": "start"
 }

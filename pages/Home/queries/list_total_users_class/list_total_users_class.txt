@@ -1,0 +1,1 @@
+SELECT classes.class_name, COUNT(users.user_id) AS total_users FROM classes JOIN  courses ON classes.class_course = courses.course_id LEFT JOIN users ON classes.class_id = users.user_class WHERE courses.course_id = {{select_courses.selectedOptionValue}} GROUP BY classes.class_name;

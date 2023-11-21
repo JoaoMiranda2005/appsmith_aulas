@@ -1,0 +1,1 @@
+SELECT courses.course_id, CONCAT(courses.course_code," - ", courses.course_name) AS list_courses FROM `courses`;

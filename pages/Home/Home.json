@@ -6,27 +6,29 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 854,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 906.0000000000001,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 590,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 906.0000000000001,
           "containerStyle": "none",
           "snapRows": 57,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 590,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
@@ -65,6 +67,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Home_list_courses",
+              "name": "list_courses",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Home_total_admin",
               "name": "total_admin",
               "confirmBeforeExecute": false,
@@ -94,6 +106,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home_list_total_users_class",
+              "name": "list_total_users_class",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "select_courses.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
