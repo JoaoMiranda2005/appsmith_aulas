@@ -2,7 +2,7 @@ export default {
 	myVar1: [],
 	myVar2: {},
 	myFun1 () {
-		if (username.text === null) {
+		if (user_name.text === null) {
 			showAlert("Please enter a username");
 		}
 	},

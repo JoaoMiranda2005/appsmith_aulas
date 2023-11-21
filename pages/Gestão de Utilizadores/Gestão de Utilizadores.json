@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 874.0000000000002,
+          "bottomRow": 952.0000000000002,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -40,14 +40,6 @@
             {
               "children": [
                 {
-                  "id": "kje60ugct7",
-                  "align": "end"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
                   "id": "m0ianu268j",
                   "align": "start"
                 }
@@ -56,8 +48,64 @@
             {
               "children": [
                 {
+                  "id": "kfhf05aa8h",
+                  "align": "start"
+                },
+                {
+                  "id": "6en5yk379p",
+                  "align": "start"
+                },
+                {
                   "id": "egm3ehqwew",
-                  "align": "end"
+                  "align": "start"
+                },
+                {
+                  "id": "e0dfh084q0",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "zbwgoldrie",
+                  "align": "start"
+                },
+                {
+                  "id": "jtk5e480s8",
+                  "align": "start"
+                },
+                {
+                  "id": "ilk868gwmo",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "88hame2m9z",
+                  "align": "start"
+                },
+                {
+                  "id": "zp697ha1wf",
+                  "align": "start"
+                },
+                {
+                  "id": "cnxri9sfw6",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "qpv453qzmx",
+                  "align": "start"
+                },
+                {
+                  "id": "api6h2muxi",
+                  "align": "start"
                 }
               ]
             },
@@ -74,14 +122,6 @@
                 {
                   "id": "u1tb1hl9ft",
                   "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "e0dfh084q0",
-                  "align": "end"
                 }
               ]
             }
