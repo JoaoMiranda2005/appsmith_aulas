@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 37.199999999999996,
-    "widgetName": "chart_total_users",
+    "widgetName": "Chart_total_users",
     "allowScroll": false,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
     "displayName": "Chart",

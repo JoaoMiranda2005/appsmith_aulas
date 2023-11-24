@@ -76,7 +76,7 @@
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 43,
-    "widgetName": "Table1",
+    "widgetName": "users_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "user_number",
@@ -110,7 +110,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "user_locale": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_locale\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_locale\"]))}}",
             "isEditable": false,
             "alias": "user_locale",
             "enableSort": true,
@@ -140,7 +140,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_email\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_email\"]))}}",
             "isEditable": false,
             "alias": "user_email",
             "enableSort": true,
@@ -170,7 +170,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_password": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_password\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_password\"]))}}",
             "isEditable": false,
             "alias": "user_password",
             "enableSort": true,
@@ -200,7 +200,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_name\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_name\"]))}}",
             "isEditable": false,
             "alias": "user_name",
             "enableSort": true,
@@ -230,7 +230,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_address": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_address\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_address\"]))}}",
             "isEditable": false,
             "alias": "user_address",
             "enableSort": true,
@@ -260,7 +260,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_class": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_class\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_class\"]))}}",
             "isEditable": false,
             "alias": "user_class",
             "enableSort": true,
@@ -290,7 +290,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_fullname": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_fullname\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_fullname\"]))}}",
             "isEditable": false,
             "alias": "user_fullname",
             "enableSort": true,
@@ -320,7 +320,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_postalcode": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_postalcode\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_postalcode\"]))}}",
             "isEditable": false,
             "alias": "user_postalcode",
             "enableSort": true,
@@ -350,7 +350,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_number": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_number\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_number\"]))}}",
             "isEditable": false,
             "alias": "user_number",
             "enableSort": true,
@@ -380,7 +380,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_role": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_role\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_role\"]))}}",
             "isEditable": false,
             "alias": "user_role",
             "enableSort": true,
@@ -410,7 +410,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_id\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_id\"]))}}",
             "isEditable": false,
             "alias": "user_id",
             "enableSort": true,
@@ -440,7 +440,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_birth": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_birth\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_birth\"]))}}",
             "isEditable": false,
             "alias": "user_birth",
             "enableSort": true,
@@ -470,7 +470,7 @@
             "verticalAlignment": "CENTER"
         },
         "user_mobile": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_mobile\"]))}}",
+            "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_mobile\"]))}}",
             "isEditable": false,
             "alias": "user_mobile",
             "enableSort": true,

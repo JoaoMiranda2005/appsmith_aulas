@@ -60,6 +60,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{users_table.selectedRow.username}}",
+    "defaultText": "{{users_table.selectedRow.user_name}}",
     "minDynamicHeight": 4
 }
