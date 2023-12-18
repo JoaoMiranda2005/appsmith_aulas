@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 21.333333333333336,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 32,
     "widgetId": "kfhf05aa8h",
     "minWidth": 450,
     "label": "Número de Utilizador",

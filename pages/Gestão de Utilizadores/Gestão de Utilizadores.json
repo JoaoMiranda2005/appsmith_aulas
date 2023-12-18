@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 952.0000000000002,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -48,6 +48,14 @@
             {
               "children": [
                 {
+                  "id": "8arabifhqi",
+                  "align": "start"
+                },
+                {
+                  "id": "twyqn9yjq9",
+                  "align": "start"
+                },
+                {
                   "id": "kfhf05aa8h",
                   "align": "start"
                 },
@@ -86,7 +94,11 @@
                 {
                   "id": "88hame2m9z",
                   "align": "start"
-                },
+                }
+              ]
+            },
+            {
+              "children": [
                 {
                   "id": "zp697ha1wf",
                   "align": "start"
@@ -94,34 +106,18 @@
                 {
                   "id": "cnxri9sfw6",
                   "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
+                },
                 {
                   "id": "qpv453qzmx",
                   "align": "start"
                 },
                 {
-                  "id": "api6h2muxi",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
                   "id": "t0tpbev2sr",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
+                  "align": "start"
+                },
                 {
                   "id": "u1tb1hl9ft",
-                  "align": "center"
+                  "align": "start"
                 }
               ]
             }

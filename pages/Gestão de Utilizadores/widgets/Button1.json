@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 86.00000000000001,
-    "bottomRow": 90.00000000000001,
+    "topRow": 78.20000000000002,
+    "bottomRow": 82.20000000000002,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.328125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 28.978756884343035,
+    "leftColumn": 51.91502753737215,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "key": "84qkjchr5p",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 35.02124311565696,
+    "rightColumn": 57.95751376868608,
     "isDefaultClickDisabled": true,
     "iconName": "saved",
     "widgetId": "t0tpbev2sr",
@@ -50,5 +50,5 @@
     "buttonVariant": "PRIMARY",
     "iconAlign": "left",
     "placement": "CENTER",
-    "alignment": "center"
+    "alignment": "start"
 }

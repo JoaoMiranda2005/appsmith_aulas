@@ -6,10 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 34.6100183582481,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -28,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
     "mobileBottomRow": 81.6,
-    "widgetName": "Input1",
+    "widgetName": "user_class",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -42,14 +43,15 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "parentColumnSpace": 20.640625,
+    "dynamicTriggerPathList": [],
     "labelPosition": "Top",
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 51.91502753737215,
     "widgetId": "qpv453qzmx",
     "minWidth": 450,
-    "label": "Label",
+    "label": "Turma",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
@@ -58,6 +60,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{users_table.selectedRow.user_class}}",
     "minDynamicHeight": 4
 }

@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 16,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 42.666666666666664,
     "widgetId": "6en5yk379p",
     "minWidth": 450,
     "label": "Nome do Utilizador",

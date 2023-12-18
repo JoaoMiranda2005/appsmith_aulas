@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 32,
+    "leftColumn": 42.666666666666664,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -49,7 +49,7 @@
     "key": "beuiw7hnoo",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 53.33333333333333,
     "widgetId": "egm3ehqwew",
     "minWidth": 450,
     "label": "Nome Completo",

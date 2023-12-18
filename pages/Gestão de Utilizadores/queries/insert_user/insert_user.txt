@@ -1,1 +1,3 @@
-INSERT INTO `users` (`username`,`fullname`) VALUES({{user_name.text}},{{user_fullname.text}});
+INSERT INTO `users`(`user_role`, `user_number`, `user_name`, `user_fullname`, `user_email`, `user_password`, `user_birth`, `user_address`, `user_postalcode`, `user_locale`, `user_mobile`, `user_active`, `user_class`) 
+
+VALUES ({{user_role.text}},{{user_number.text}},{{user_name.text}},{{user_fullname.text}},{{user_email.text}},{{user_password.text}},{{user_birth.text}},{{user_address.text}},{{user_postalcode.text}},{{user_locale.text}},{{user_mobile.text}},{{user_active.isChecked}},{{user_class.text}})

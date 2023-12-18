@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "insert_user",
+    "name": "update_users",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO `users`(`user_role`, `user_number`, `user_name`, `user_fullname`, `user_email`, `user_password`, `user_birth`, `user_address`, `user_postalcode`, `user_locale`, `user_mobile`, `user_active`, `user_class`) \n\nVALUES ({{user_role.text}},{{user_number.text}},{{user_name.text}},{{user_fullname.text}},{{user_email.text}},{{user_password.text}},{{user_birth.text}},{{user_address.text}},{{user_postalcode.text}},{{user_locale.text}},{{user_mobile.text}},{{user_active.isChecked}},{{user_class.text}})",
+      "body": "UPDATE users SET username = {{user_name.text}}, fullname = {{user_fullname.text}} WHERE users.id = {{users_table.selectedRow.id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,27 +36,17 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "user_active.isChecked",
-      "user_address.text",
-      "user_birth.text",
-      "user_class.text",
-      "user_email.text",
       "user_fullname.text",
-      "user_locale.text",
-      "user_mobile.text",
       "user_name.text",
-      "user_number.text",
-      "user_password.text",
-      "user_postalcode.text",
-      "user_role.text"
+      "users_table.selectedRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-26T20:36:09Z"
+    "createdAt": "2023-12-13T13:04:22Z"
   },
-  "id": "Gestão de Utilizadores_insert_user",
+  "id": "Gestão de Utilizadores_update_users",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_653acdb9a61b19567296f257"
+  "gitSyncId": "653acc60a61b19567296f134_6579abd6a1564d2003034523"
 }

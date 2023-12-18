@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 48,
+    "leftColumn": 53.33333333333333,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
