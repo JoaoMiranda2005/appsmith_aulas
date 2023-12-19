@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 21.333333333333336,
+    "leftColumn": 18.285714285714285,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 61.4,
+    "bottomRow": 61.39999999999999,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 27.428571428571427,
     "widgetId": "kfhf05aa8h",
     "minWidth": 450,
     "label": "Número de Utilizador",

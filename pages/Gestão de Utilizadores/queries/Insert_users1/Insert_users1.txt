@@ -1,1 +1,0 @@
-INSERT INTO `users` (username,fullname) VALUES ('{{(users_table.newRow || {}).username}}','{{('users_table.newRow' || {}).fullname}}')

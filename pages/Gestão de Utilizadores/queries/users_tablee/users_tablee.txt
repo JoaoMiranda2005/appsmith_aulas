@@ -1,1 +1,1 @@
-SELECT * FROM `users`;
+SELECT *, TIMESTAMPDIFF(YEAR,user_birth,CURDATE()) as user_age FROM users;

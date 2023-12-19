@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 848,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -48,7 +48,7 @@
             {
               "children": [
                 {
-                  "id": "8arabifhqi",
+                  "id": "dtc3m6pe5d",
                   "align": "start"
                 },
                 {
@@ -69,6 +69,10 @@
                 },
                 {
                   "id": "e0dfh084q0",
+                  "align": "start"
+                },
+                {
+                  "id": "1uvuvv01t1",
                   "align": "start"
                 }
               ]
@@ -112,6 +116,10 @@
                   "align": "start"
                 },
                 {
+                  "id": "ikikhs5wog",
+                  "align": "start"
+                },
+                {
                   "id": "t0tpbev2sr",
                   "align": "start"
                 },
@@ -126,8 +134,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Gestão de Utilizadores_Select_users1",
-              "name": "Select_users1",
+              "id": "Gestão de Utilizadores_users",
+              "name": "users",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Insert_users1",
+    "name": "users",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -18,34 +18,27 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO `users` (username,fullname) VALUES ('{{(users_table.newRow || {}).username}}','{{('users_table.newRow' || {}).fullname}}')",
+      "body": "SELECT *, TIMESTAMPDIFF(YEAR,user_birth,CURDATE()) as user_age FROM `users`;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "('users_table.newRow' || {}).fullname",
-      "(users_table.newRow || {}).username"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-26T20:33:20Z"
+    "createdAt": "2023-12-19T11:39:51Z"
   },
-  "id": "Gestão de Utilizadores_Insert_users1",
+  "id": "Gestão de Utilizadores_users",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_653acd109e6fc64240c7dc62"
+  "gitSyncId": "653acc60a61b19567296f134_65818107ef1a8369021dd775"
 }

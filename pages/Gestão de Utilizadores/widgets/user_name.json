@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 32,
+    "leftColumn": 27.428571428571427,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 61.4,
+    "bottomRow": 61.400000000000006,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 42.666666666666664,
+    "rightColumn": 36.57142857142857,
     "widgetId": "6en5yk379p",
     "minWidth": 450,
     "label": "Nome do Utilizador",

@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 42.666666666666664,
+    "leftColumn": 36.57142857142857,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -38,7 +38,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 61.40000000000002,
+    "bottomRow": 61.400000000000006,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -49,7 +49,7 @@
     "key": "beuiw7hnoo",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 53.33333333333333,
+    "rightColumn": 45.71428571428571,
     "widgetId": "egm3ehqwew",
     "minWidth": 450,
     "label": "Nome Completo",

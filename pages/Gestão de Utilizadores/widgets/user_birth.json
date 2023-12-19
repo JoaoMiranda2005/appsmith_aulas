@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 53.33333333333333,
+    "leftColumn": 45.71428571428571,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -49,7 +49,7 @@
     "key": "gzqxj0jjww",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 54.85714285714285,
     "widgetId": "e0dfh084q0",
     "minWidth": 450,
     "label": "Data de Nascimento",

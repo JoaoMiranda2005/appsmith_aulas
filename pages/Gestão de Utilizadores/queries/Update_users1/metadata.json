@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET username= '{{'Table1.updatedRow.username'}}', fullname= '{{'users_table.updatedRow.fullname'}}' WHERE id= '{{'Table1.updatedRow.id'}}';",
+      "body": "UPDATE `users` SET `user_role`={{user_role.text}},`user_number`={{user_number.text}},`user_name`={{user_name.text}},`user_fullname`={{user_fullname.text}},`user_email`={{user_email.text}},`user_password`={{user_password.text}},`user_birth`={{user_birth.text}},`user_address`={{user_address.text}},`user_postalcode`={{user_postalcode.text}},`user_locale`={{user_locale.text}},`user_mobile`={{user_mobile.text}},`user_active`={{user_active.isChecked}},`user_class`={{user_class.text}} WHERE `user_id`={{users_table.selectedRow.user_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,20 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "'Table1.updatedRow.id'",
-      "'Table1.updatedRow.username'",
-      "'users_table.updatedRow.fullname'"
+      "user_active.isChecked",
+      "user_address.text",
+      "user_birth.text",
+      "user_class.text",
+      "user_email.text",
+      "user_fullname.text",
+      "user_locale.text",
+      "user_mobile.text",
+      "user_name.text",
+      "user_number.text",
+      "user_password.text",
+      "user_postalcode.text",
+      "user_role.text",
+      "users_table.selectedRow.user_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
