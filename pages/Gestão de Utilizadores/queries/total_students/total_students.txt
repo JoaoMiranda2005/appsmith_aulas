@@ -1,1 +1,0 @@
-SELECT count (*)  AS total_students from users WHERE users.user_role = 1

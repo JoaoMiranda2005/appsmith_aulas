@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT *, TIMESTAMPDIFF(YEAR,user_birth,CURDATE()) as user_age FROM `users`;",
+      "body": "SELECT *, TIMESTAMPDIFF(YEAR, user_birth,CURDATE()) as user_age FROM users\nSELECT courses.course_id, CONCAT(courses.course_code, \"-\", courses.course_name) AS list_cursos FROM courses; - list_cursos\nSELECT classes.class_name, COUNT(users.user_id) AS total_users FROM classes JOIN courses ON classes.class_course = courses.course_idLEFT JOIN users ON classes.class_id = users.user_class WHERE courses.course_id = {{courses.selectedOptionValue}} GROUP BY classes.class_name; -list total users class\nSELECT roles.role_id, roles.role_desc FROM roles; - roles\nSELECT COUNT(*) AS total_admin FROM users WHERE user_role = 4; - total admin\nSELECT COUNT (*) AS total_alunos FROM users WHERE user_role = 1; - total_alunos\nSELECT COUNT (*) AS total_professores FROM users WHERE user_role = 2; - total professores\nSELECT COUNT(*) AS total_secretaria FROM users WHERE user_role = 3; - total secretaria\nSELECT users.user_number, users.user_name, users.user_fullname FROM users WHERE users.user_role = {{selectRole.selectedOptionValue}}\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,18 +27,25 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "courses.selectedOptionValue",
+      "selectRole.selectedOptionValue"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-19T11:39:51Z"
+    "createdAt": "2023-12-20T21:19:48Z"
   },
   "id": "Gestão de Utilizadores_users",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_65818107ef1a8369021dd775"
+  "gitSyncId": "653acc60a61b19567296f134_65835a7402fa7a5346d8fc1d"
 }

@@ -1,38 +1,37 @@
 {
   "unpublishedPage": {
-    "name": "Gestão de Utilizadores",
-    "slug": "gestao-de-utilizadores",
+    "name": "Cursos e Turmas",
+    "slug": "cursos-e-turmas",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1292,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1292,
-          "useAutoLayout": true,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 902,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 77,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
           "version": 87,
+          "minHeight": 790,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
           "responsiveBehavior": "fill",
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "vhs4olqfx9",
+                  "id": "qn15zv6ey1",
                   "align": "start"
                 }
               ]
@@ -40,7 +39,7 @@
             {
               "children": [
                 {
-                  "id": "m0ianu268j",
+                  "id": "hht07z47wu",
                   "align": "start"
                 }
               ]
@@ -48,31 +47,23 @@
             {
               "children": [
                 {
-                  "id": "dtc3m6pe5d",
+                  "id": "q8xlm571ag",
                   "align": "start"
                 },
                 {
-                  "id": "851wz9h84k",
+                  "id": "ra0r5ln8ri",
                   "align": "start"
                 },
                 {
-                  "id": "kfhf05aa8h",
+                  "id": "6ic8xwchhw",
                   "align": "start"
                 },
                 {
-                  "id": "6en5yk379p",
+                  "id": "wwk9i3jsdz",
                   "align": "start"
                 },
                 {
-                  "id": "egm3ehqwew",
-                  "align": "start"
-                },
-                {
-                  "id": "e0dfh084q0",
-                  "align": "start"
-                },
-                {
-                  "id": "1uvuvv01t1",
+                  "id": "ruj0ffv5ja",
                   "align": "start"
                 }
               ]
@@ -80,15 +71,7 @@
             {
               "children": [
                 {
-                  "id": "zbwgoldrie",
-                  "align": "start"
-                },
-                {
-                  "id": "jtk5e480s8",
-                  "align": "start"
-                },
-                {
-                  "id": "ilk868gwmo",
+                  "id": "y7eg94c0kl",
                   "align": "start"
                 }
               ]
@@ -96,7 +79,7 @@
             {
               "children": [
                 {
-                  "id": "88hame2m9z",
+                  "id": "7ruvkjm8pz",
                   "align": "start"
                 }
               ]
@@ -104,27 +87,23 @@
             {
               "children": [
                 {
-                  "id": "zp697ha1wf",
+                  "id": "2enhuj68mx",
                   "align": "start"
                 },
                 {
-                  "id": "cnxri9sfw6",
+                  "id": "bxyl5zgrgk",
                   "align": "start"
                 },
                 {
-                  "id": "qpv453qzmx",
+                  "id": "txn3euv0kg",
                   "align": "start"
                 },
                 {
-                  "id": "ikikhs5wog",
+                  "id": "qd0rzp55wa",
                   "align": "start"
                 },
                 {
-                  "id": "t0tpbev2sr",
-                  "align": "start"
-                },
-                {
-                  "id": "u1tb1hl9ft",
+                  "id": "hyp3a9ukye",
                   "align": "start"
                 }
               ]
@@ -134,31 +113,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Gestão de Utilizadores_roles",
-              "name": "roles",
+              "id": "Cursos e Turmas_courses",
+              "name": "courses",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Gestão de Utilizadores_users",
-              "name": "users",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "courses.selectedOptionValue",
-                "selectRole.selectedOptionValue"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Gestão de Utilizadores",
+        "id": "Cursos e Turmas",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -169,5 +135,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_653acc60a61b19567296f136"
+  "gitSyncId": "653acc60a61b19567296f134_65841e7f19175948c3d0db7d"
 }

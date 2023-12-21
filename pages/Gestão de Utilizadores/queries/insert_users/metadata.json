@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Update_users1",
+    "name": "insert_users",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE `users` SET `user_role`={{user_role.text}},`user_number`={{user_number.text}},`user_name`={{user_name.text}},`user_fullname`={{user_fullname.text}},`user_email`={{user_email.text}},`user_password`={{user_password.text}},`user_birth`={{user_birth.text}},`user_address`={{user_address.text}},`user_postalcode`={{user_postalcode.text}},`user_locale`={{user_locale.text}},`user_mobile`={{user_mobile.text}},`user_active`={{user_active.isChecked}},`user_class`={{user_class.text}} WHERE `user_id`={{users_table.selectedRow.user_id}}",
+      "body": "INSERT INTO users \n\n(user_role, user_number, user_name, user_fullname, user_email, user_password, user_birth, user_address, user_postalcode, user_locale, user_mobile, user_active, user_class)\nVALUES\n({{user_role.text}}, {{user_number.text}}, {{user_name.text}}, {{user_fullname.text}}, {{user_email.text}}, {{user_password.text}}, {{user_birth.text}}, {{user_address.text}}, {{user_postalcode.text}}, {{user_locale.text}}, {{user_mobile.text}}, {{user_active.selectedOptionValue === \"true\"}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
@@ -36,10 +36,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "user_active.isChecked",
+      "user_active.selectedOptionValue === \"true\"",
       "user_address.text",
       "user_birth.text",
-      "user_class.text",
       "user_email.text",
       "user_fullname.text",
       "user_locale.text",
@@ -48,16 +47,15 @@
       "user_number.text",
       "user_password.text",
       "user_postalcode.text",
-      "user_role.text",
-      "users_table.selectedRow.user_id"
+      "user_role.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-26T20:33:20Z"
+    "createdAt": "2023-12-20T21:17:43Z"
   },
-  "id": "Gestão de Utilizadores_Update_users1",
+  "id": "Gestão de Utilizadores_insert_users",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_653acd10ccc3870e62781ed3"
+  "gitSyncId": "653acc60a61b19567296f134_658359f702fa7a5346d8fc19"
 }

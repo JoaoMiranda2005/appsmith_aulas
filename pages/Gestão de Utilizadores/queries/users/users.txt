@@ -1,1 +1,9 @@
-SELECT *, TIMESTAMPDIFF(YEAR,user_birth,CURDATE()) as user_age FROM `users`;
+SELECT *, TIMESTAMPDIFF(YEAR, user_birth,CURDATE()) as user_age FROM users
+SELECT courses.course_id, CONCAT(courses.course_code, "-", courses.course_name) AS list_cursos FROM courses; - list_cursos
+SELECT classes.class_name, COUNT(users.user_id) AS total_users FROM classes JOIN courses ON classes.class_course = courses.course_idLEFT JOIN users ON classes.class_id = users.user_class WHERE courses.course_id = {{courses.selectedOptionValue}} GROUP BY classes.class_name; -list total users class
+SELECT roles.role_id, roles.role_desc FROM roles; - roles
+SELECT COUNT(*) AS total_admin FROM users WHERE user_role = 4; - total admin
+SELECT COUNT (*) AS total_alunos FROM users WHERE user_role = 1; - total_alunos
+SELECT COUNT (*) AS total_professores FROM users WHERE user_role = 2; - total professores
+SELECT COUNT(*) AS total_secretaria FROM users WHERE user_role = 3; - total secretaria
+SELECT users.user_number, users.user_name, users.user_fullname FROM users WHERE users.user_role = {{selectRole.selectedOptionValue}}

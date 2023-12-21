@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "total_students",
+    "name": "roles",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT count (*)  AS total_students from users WHERE users.user_role = 1",
+      "body": "SELECT roles.role_id, roles.role_description FROM `roles`",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-03T21:59:30Z"
+    "createdAt": "2023-12-21T11:04:27Z"
   },
-  "id": "Gestão de Utilizadores_total_students",
+  "id": "Gestão de Utilizadores_roles",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_65456d42f5de3e0165bb75d3"
+  "gitSyncId": "653acc60a61b19567296f134_65841bbb65a9b13543b9bd5f"
 }

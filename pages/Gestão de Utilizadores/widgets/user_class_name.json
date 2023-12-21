@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 29.13703284258211,
+    "leftColumn": 33.267243640178336,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -29,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
     "mobileBottomRow": 81.6,
-    "widgetName": "user_class",
+    "widgetName": "user_class_name",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 43.705549263873166,
+    "rightColumn": 49.900865460267504,
     "widgetId": "qpv453qzmx",
     "minWidth": 450,
     "label": "Turma",
@@ -60,6 +60,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{users_table.selectedRow.user_class}}",
+    "defaultText": "{{users_table.selectedRow.user_class_name.toString()}}",
     "minDynamicHeight": 4
 }

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET username = {{user_name.text}}, fullname = {{user_fullname.text}} WHERE users.id = {{users_table.selectedRow.id}}",
+      "body": "UPDATE users SET\nuser_role={{user_role.selectedOptionValue}},\nuser_number={{user_number.text}},\nuser_name={{user_name.text}},\nuser_fullname={{user_fullname.text}},\nuser_email={{user_email.text}},\nuser_password={{user_password.text}},\nuser_birth={{user_birth.text}},\nuser_address={{user_address.text}},\nuser_postalcode={{user_postalcode.text}},\nuser_locale={{user_locale.text}},\nuser_mobile={{user_mobile.text}},\nuser_active={{user_active.selectedOptionValue}}, WHERE user_id={{users_table.selectedRow.user_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,17 +36,27 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "user_active.selectedOptionValue",
+      "user_address.text",
+      "user_birth.text",
+      "user_email.text",
       "user_fullname.text",
+      "user_locale.text",
+      "user_mobile.text",
       "user_name.text",
-      "users_table.selectedRow.id"
+      "user_number.text",
+      "user_password.text",
+      "user_postalcode.text",
+      "user_role.selectedOptionValue",
+      "users_table.selectedRow.user_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-13T13:04:22Z"
+    "createdAt": "2023-12-20T21:18:26Z"
   },
   "id": "Gestão de Utilizadores_update_users",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_6579abd6a1564d2003034523"
+  "gitSyncId": "653acc60a61b19567296f134_65835a2202fa7a5346d8fc1b"
 }

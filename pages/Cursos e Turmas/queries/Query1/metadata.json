@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Select_users1",
+    "name": "Query1",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -13,21 +13,19 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Gestão de Utilizadores",
+    "pageId": "Cursos e Turmas",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM users;",
+      "body": "SELECT * FROM classes LIMIT 10;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -35,10 +33,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-10-26T20:33:16Z"
+    "userPermissions": []
   },
-  "id": "Gestão de Utilizadores_Select_users1",
+  "id": "Cursos e Turmas_Query1",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_653acd0c9e6fc64240c7dc60"
+  "gitSyncId": "653acc60a61b19567296f134_65841f209ec32570809bee7f"
 }

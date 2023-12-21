@@ -7,6 +7,10 @@
     {
       "id": "Gestão de Utilizadores",
       "isDefault": false
+    },
+    {
+      "id": "Cursos e Turmas",
+      "isDefault": false
     }
   ],
   "viewMode": false,
