@@ -1,0 +1,5 @@
+UPDATE `classes` SET 
+`class_code`={{class_code.text}},
+`class_name`={{class_name.text}},
+`class_course`={{courses_table.selectedRow.course_id}},
+`class_active`={{class_active.selectedOptionValue === "True"}} WHERE `class_id`= {{classes_table.selectedRow.class_id}}

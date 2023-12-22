@@ -1,8 +1,10 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 43,
-    "widgetName": "IconButton3Copy",
+    "mobileBottomRow": 127.4,
+    "widgetName": "insert_class",
+    "onClick": "{{class_insert.run().then(() => {\n  showAlert('Turma inserida com sucesso', 'success');\n}).catch(() => {\n  showAlert('Erro na inserção de turma', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -14,10 +16,11 @@
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 2.21,
+    "mobileRightColumn": 18.373205741626798,
     "animateLoading": true,
     "parentColumnSpace": 19.859375,
-    "leftColumn": 61.98583792289536,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 61.58034026465029,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -26,7 +29,7 @@
     "key": "4js43t0oqg",
     "isDeprecated": false,
     "rightColumn": 64,
-    "iconName": "plus",
+    "iconName": "arrow-up",
     "widgetId": "hyp3a9ukye",
     "minWidth": 50,
     "isVisible": true,
@@ -35,10 +38,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 39,
+    "mobileTopRow": 123.4,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
+    "mobileLeftColumn": 12.248803827751196,
     "buttonVariant": "PRIMARY",
     "alignment": "start"
 }

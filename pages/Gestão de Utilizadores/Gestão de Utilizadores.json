@@ -148,10 +148,7 @@
               "name": "users",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "courses.selectedOptionValue",
-                "selectRole.selectedOptionValue"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

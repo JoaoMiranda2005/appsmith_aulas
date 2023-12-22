@@ -1,0 +1,4 @@
+UPDATE `courses` SET 
+`course_code`={{course_code.text}},
+`course_name`={{course_name.text}},
+`course_active`={{course_active.selectedOptionValue === "true"}} WHERE `course_id` = {{courses_table.selectedRow.course_id}}

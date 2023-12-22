@@ -6,10 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 28.978756884343035,
+    "leftColumn": 37.827347195967235,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -27,8 +28,8 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
-    "mobileBottomRow": 44.6,
-    "widgetName": "Input3Copy",
+    "mobileBottomRow": 122.60000000000001,
+    "widgetName": "class_name",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -47,18 +48,18 @@
     "key": "11r4yatc5m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 57.95751376868607,
+    "rightColumn": 56.74102079395085,
     "widgetId": "bxyl5zgrgk",
     "minWidth": 450,
     "label": "Nome da Turma",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 38,
+    "mobileTopRow": 116,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{classes_table.selectedRow.class_name}}",
     "minDynamicHeight": 4
 }

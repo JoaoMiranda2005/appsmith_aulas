@@ -10,4 +10,4 @@ user_address={{user_address.text}},
 user_postalcode={{user_postalcode.text}},
 user_locale={{user_locale.text}},
 user_mobile={{user_mobile.text}},
-user_active={{user_active.selectedOptionValue}}, WHERE user_id={{users_table.selectedRow.user_id}}
+user_active={{user_active.selectedOptionValue === "true"}} WHERE user_id={{users_table.selectedRow.user_id}}

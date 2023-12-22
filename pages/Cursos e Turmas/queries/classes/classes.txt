@@ -1,0 +1,1 @@
+SELECT * FROM `classes` WHERE `class_course` = {{courses_table.selectedRow.course_id}}

@@ -1,1 +1,1 @@
-DELETE FROM users WHERE users.id = {{users_table.selectedRow.id}}
+DELETE FROM users WHERE user_id = {{users_table.selectedRow.user_id}}

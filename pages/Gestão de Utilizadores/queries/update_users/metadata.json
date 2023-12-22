@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET\nuser_role={{user_role.selectedOptionValue}},\nuser_number={{user_number.text}},\nuser_name={{user_name.text}},\nuser_fullname={{user_fullname.text}},\nuser_email={{user_email.text}},\nuser_password={{user_password.text}},\nuser_birth={{user_birth.text}},\nuser_address={{user_address.text}},\nuser_postalcode={{user_postalcode.text}},\nuser_locale={{user_locale.text}},\nuser_mobile={{user_mobile.text}},\nuser_active={{user_active.selectedOptionValue}}, WHERE user_id={{users_table.selectedRow.user_id}}",
+      "body": "UPDATE users SET\nuser_role={{user_role.selectedOptionValue}},\nuser_number={{user_number.text}},\nuser_name={{user_name.text}},\nuser_fullname={{user_fullname.text}},\nuser_email={{user_email.text}},\nuser_password={{user_password.text}},\nuser_birth={{user_birth.text}},\nuser_address={{user_address.text}},\nuser_postalcode={{user_postalcode.text}},\nuser_locale={{user_locale.text}},\nuser_mobile={{user_mobile.text}},\nuser_active={{user_active.selectedOptionValue === \"true\"}} WHERE user_id={{users_table.selectedRow.user_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "user_active.selectedOptionValue",
+      "user_active.selectedOptionValue === \"true\"",
       "user_address.text",
       "user_birth.text",
       "user_email.text",

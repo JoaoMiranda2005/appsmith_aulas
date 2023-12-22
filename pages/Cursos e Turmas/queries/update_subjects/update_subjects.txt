@@ -1,0 +1,1 @@
+UPDATE subjects SET subject_code = {{subject_code.text}}, subject_desc = {{subject_desc.text}}, subject_hours = {{subject_hours.text}}, subject_active = {{subject_active.selectedOptionValue === "true"}} WHERE subject_id = {{subjects_table.selectedRow.subject_id}}

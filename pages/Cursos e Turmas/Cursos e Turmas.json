@@ -6,27 +6,29 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 1354.0000000000005,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 902,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 790,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 902,
           "containerStyle": "none",
           "snapRows": 77,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 790,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
@@ -46,6 +48,10 @@
             },
             {
               "children": [
+                {
+                  "id": "fxmhxo8t2q",
+                  "align": "start"
+                },
                 {
                   "id": "q8xlm571ag",
                   "align": "start"
@@ -87,6 +93,10 @@
             {
               "children": [
                 {
+                  "id": "6e8rqntulz",
+                  "align": "start"
+                },
+                {
                   "id": "2enhuj68mx",
                   "align": "start"
                 },
@@ -113,11 +123,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Cursos e Turmas_courses",
-              "name": "courses",
+              "id": "Cursos e Turmas_list_courses",
+              "name": "list_courses",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Cursos e Turmas_classes",
+              "name": "classes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "courses_table.selectedRow.course_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

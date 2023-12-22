@@ -6,10 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 18.913673597983614,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -27,7 +28,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
-    "mobileBottomRow": 53.6,
+    "mobileBottomRow": 50,
     "widgetName": "Input1",
     "displayName": "Input",
     "searchTags": [
@@ -47,18 +48,18 @@
     "key": "11r4yatc5m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 28.978756884343035,
+    "rightColumn": 37.827347195967235,
     "widgetId": "q8xlm571ag",
     "minWidth": 450,
     "label": "Código do Curso",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 47,
+    "mobileTopRow": 43.4,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{courses_table.selectedRow.course_code}}",
     "minDynamicHeight": 4
 }

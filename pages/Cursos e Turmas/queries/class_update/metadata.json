@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "users",
+    "name": "class_update",
     "datasource": {
       "name": "cesariogarcia.com",
       "pluginId": "mysql-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Gestão de Utilizadores",
+    "pageId": "Cursos e Turmas",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT users.*, TIMESTAMPDIFF(YEAR,users.user_birth,CURDATE()) AS user_age, classes.class_name as user_class_name, roles.role_description as user_role_desc FROM users LEFT JOIN classes ON users.user_class = classes.class_id LEFT JOIN roles ON users.user_role = roles.role_id",
+      "body": "UPDATE `classes` SET \n`class_code`={{class_code.text}},\n`class_name`={{class_name.text}},\n`class_course`={{courses_table.selectedRow.course_id}},\n`class_active`={{class_active.selectedOptionValue === \"True\"}} WHERE `class_id`= {{classes_table.selectedRow.class_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,18 +27,28 @@
       ]
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "class_active.selectedOptionValue === \"True\"",
+      "class_code.text",
+      "class_name.text",
+      "classes_table.selectedRow.class_id",
+      "courses_table.selectedRow.course_id"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-20T21:19:48Z"
+    "createdAt": "2023-12-21T15:22:37Z"
   },
-  "id": "Gestão de Utilizadores_users",
+  "id": "Cursos e Turmas_class_update",
   "deleted": false,
-  "gitSyncId": "653acc60a61b19567296f134_65835a7402fa7a5346d8fc1d"
+  "gitSyncId": "653acc60a61b19567296f134_6584583da8df812ff74a495c"
 }

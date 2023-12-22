@@ -1,0 +1,1 @@
+INSERT INTO `classes`(`class_code`, `class_name`, `class_course`, `class_active`) VALUES ({{class_code.text}},{{class_name.text}},{{courses_table.selectedRow.course_id}},{{class_active.selectedOptionValue === true}})
