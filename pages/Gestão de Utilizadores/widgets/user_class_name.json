@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 33.267243640178336,
+    "leftColumn": 29.21321321321321,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 49.900865460267504,
+    "rightColumn": 43.81981981981981,
     "widgetId": "qpv453qzmx",
     "minWidth": 450,
     "label": "Turma",

@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.328125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57.95751376868608,
+    "leftColumn": 55.35135135135135,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Apagar",
     "isDisabled": false,

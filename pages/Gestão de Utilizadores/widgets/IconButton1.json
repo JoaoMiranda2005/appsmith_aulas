@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 85,
     "widgetName": "IconButton1",
-    "onClick": "{{update_users.run()}}",
+    "onClick": "{{update_users.run().then(() => {\n  users.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 49.900865460267504,
+    "leftColumn": 43.81981981981981,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +28,7 @@
     "isDisabled": false,
     "key": "q0i8qjrqdx",
     "isDeprecated": false,
-    "rightColumn": 51.91502753737215,
+    "rightColumn": 46.702702702702695,
     "iconName": "refresh",
     "widgetId": "ikikhs5wog",
     "minWidth": 50,

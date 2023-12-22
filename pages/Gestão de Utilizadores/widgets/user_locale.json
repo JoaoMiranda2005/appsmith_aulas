@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 16.633621820089164,
+    "leftColumn": 14.606606606606604,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -48,7 +48,7 @@
     "key": "urdii4id1m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 33.267243640178336,
+    "rightColumn": 29.21321321321321,
     "widgetId": "cnxri9sfw6",
     "minWidth": 450,
     "label": "Localidade",
