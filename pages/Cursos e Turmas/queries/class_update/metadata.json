@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE `classes` SET \n`class_code`={{class_code.text}},\n`class_name`={{class_name.text}},\n`class_course`={{courses_table.selectedRow.course_id}},\n`class_active`={{class_active.selectedOptionValue === \"True\"}} WHERE `class_id`= {{classes_table.selectedRow.class_id}}",
+      "body": "UPDATE `classes` SET \n`class_code`={{class_code.text}},\n`class_name`={{class_name.text}},\n`class_course`={{courses_table.selectedRow.course_id}},\n`class_active`={{class_active.selectedOptionValue === \"true\"}} WHERE `class_id`= {{classes_table.selectedRow.class_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "class_active.selectedOptionValue === \"True\"",
+      "class_active.selectedOptionValue === \"true\"",
       "class_code.text",
       "class_name.text",
       "classes_table.selectedRow.class_id",

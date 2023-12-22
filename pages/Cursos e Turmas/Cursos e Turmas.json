@@ -9,7 +9,7 @@
           "mobileBottomRow": 1354.0000000000005,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 902,
+          "bottomRow": 1293.9999999999998,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -77,14 +77,6 @@
             {
               "children": [
                 {
-                  "id": "y7eg94c0kl",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
                   "id": "7ruvkjm8pz",
                   "align": "start"
                 }
@@ -117,6 +109,46 @@
                   "align": "start"
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "id": "yxg3tf7mdu",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "wgfezy2cr6",
+                  "align": "start"
+                },
+                {
+                  "id": "abayt1nrb8",
+                  "align": "start"
+                },
+                {
+                  "id": "2347ohq2m9",
+                  "align": "start"
+                },
+                {
+                  "id": "uzaiq64opb",
+                  "align": "start"
+                },
+                {
+                  "id": "wv8z657y4u",
+                  "align": "start"
+                },
+                {
+                  "id": "chlzjtp95m",
+                  "align": "start"
+                },
+                {
+                  "id": "clnbjg17eh",
+                  "align": "start"
+                }
+              ]
             }
           ]
         },
@@ -135,6 +167,16 @@
             {
               "id": "Cursos e Turmas_classes",
               "name": "classes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "courses_table.selectedRow.course_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Cursos e Turmas_subjects",
+              "name": "subjects",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 37.827347195967235,
+    "leftColumn": 36.86825217063043,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -29,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
     "mobileBottomRow": 57.4,
-    "widgetName": "Input3",
+    "widgetName": "course_name",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -48,7 +48,7 @@
     "key": "11r4yatc5m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 56.74102079395085,
+    "rightColumn": 55.30237825594564,
     "widgetId": "ra0r5ln8ri",
     "minWidth": 450,
     "label": "Nome do Curso",

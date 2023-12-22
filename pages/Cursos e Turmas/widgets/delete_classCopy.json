@@ -1,8 +1,8 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 127.4,
-    "widgetName": "update_class",
-    "onClick": "{{class_update.run()}}",
+    "widgetName": "delete_classCopy",
+    "onClick": "{{delete_subjects.run().then(() => {\n  subjects.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -10,16 +10,16 @@
         "click",
         "submit"
     ],
-    "topRow": 75.8,
-    "bottomRow": 79.8,
+    "topRow": 114.8,
+    "bottomRow": 118.8,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 6.124401913875598,
+    "mobileRightColumn": 12.248803827751196,
     "animateLoading": true,
     "parentColumnSpace": 19.859375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 55.30237825594564,
+    "leftColumn": 58.20158550396376,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,9 +27,9 @@
     "isDisabled": false,
     "key": "4js43t0oqg",
     "isDeprecated": false,
-    "rightColumn": 58.20158550396376,
-    "iconName": "refresh",
-    "widgetId": "txn3euv0kg",
+    "rightColumn": 61.100792751981885,
+    "iconName": "trash",
+    "widgetId": "chlzjtp95m",
     "minWidth": 50,
     "isVisible": true,
     "version": 1,
@@ -40,7 +40,7 @@
     "mobileTopRow": 123.4,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
+    "mobileLeftColumn": 6.124401913875598,
     "buttonVariant": "PRIMARY",
     "alignment": "start"
 }

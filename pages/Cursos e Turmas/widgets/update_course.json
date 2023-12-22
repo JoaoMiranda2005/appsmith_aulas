@@ -19,7 +19,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.859375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 56.74102079395085,
+    "leftColumn": 55.30237825594564,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "isDisabled": false,
     "key": "4js43t0oqg",
     "isDeprecated": false,
-    "rightColumn": 59.16068052930057,
+    "rightColumn": 58.20158550396376,
     "iconName": "refresh",
     "widgetId": "6ic8xwchhw",
     "minWidth": 50,

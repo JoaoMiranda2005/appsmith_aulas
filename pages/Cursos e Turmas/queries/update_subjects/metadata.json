@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE subjects SET subject_code = {{subject_code.text}}, subject_desc = {{subject_desc.text}}, subject_hours = {{subject_hours.text}}, subject_active = {{subject_active.selectedOptionValue === \"true\"}} WHERE subject_id = {{subjects_table.selectedRow.subject_id}}",
+      "body": "UPDATE subjects SET subject_code = {{course_code.text}}, subject_desc = {{subject_desc.text}}, subject_hours = {{subject_hours.text}}, subject_active = {{subject_active.selectedOptionValue === \"true\"}} WHERE subject_id = {{subjects_table.selectedRow.subject_id}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "course_code.text",
       "subject_active.selectedOptionValue === \"true\"",
-      "subject_code.text",
       "subject_desc.text",
       "subject_hours.text",
       "subjects_table.selectedRow.subject_id"

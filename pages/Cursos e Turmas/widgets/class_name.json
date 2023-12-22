@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
-    "topRow": 83.60000000000001,
+    "topRow": 75.8,
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 37.827347195967235,
+    "leftColumn": 36.86825217063043,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 90.2,
+    "bottomRow": 82.39999999999999,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -48,7 +48,7 @@
     "key": "11r4yatc5m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 56.74102079395085,
+    "rightColumn": 55.30237825594564,
     "widgetId": "bxyl5zgrgk",
     "minWidth": 450,
     "label": "Nome da Turma",
